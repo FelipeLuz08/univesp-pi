@@ -1,0 +1,66 @@
+/* https://colorhunt.co/palette/ddeb9da0c87827667b143d60 - Paleta de cores usada no momento */
+
+body{
+    height: 80vh;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    color: black;
+}
+
+header {
+    padding: 5%;
+    background-color: #DDEB9D;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10%;
+    justify-content: space-between;
+}
+
+input {
+    width: 300px;
+}
+
+.entrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    justify-content: space-evenly;
+}
+
+.cadastrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20%;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 25px;
+    margin: 0.1%;
+    font-size: 16px;
+    width: 300px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+button:active {
+    transform: scale(0.95); 
+}
+
+.botoes {
+    background-color: #27667B;
+    color: white; 
+    /* border: 2px solid #008cff; */
+}
+
+.botoes:hover {
+    background-color: #27787b;
+}
